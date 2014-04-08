@@ -1,0 +1,32 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#instructions, #showInstructionsButton {
+    font: 11px 'Lucida Grande', sans-serif;
+    background-color: black;
+    color: #eee;
+    position: absolute;
+    padding: 0px;
+    right: 262px;
+}
+
+#instructions {
+    visibility: hidden;
+}
+
+#instructionsContent{
+    padding: 5px;
+}
+
+#showInstructionsButton,#hideInstructionsButton{
+    cursor: pointer;
+    padding: 4px;
+    text-align: center;
+}
+
+#hideInstructionsButton{
+    border-top:  1px solid #2c2c2c;
+}

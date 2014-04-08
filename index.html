@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="lib/dat.gui.js"></script>
+    <script src="lib/gaussian.js"></script>
+    <script src="script.js"></script>
+</head>
+<body onload="main()">
+<div id="showInstructionsButton">
+    Open Instructions
+</div>
+<div id="instructions">
+    <div id="instructionsContent">
+        <b>Simulation of particle filter based beacon location.</b></br>
+        Usage (3 options):
+        <ul>
+            <li>run - continuous simulation</li>
+            <li>step - simulate single step of particle filter</li>
+            <li>simulateRead -> predict -> update -> resample -> guess - stages of particle filter</li>
+        </ul>
+        X - real position, E - estimated position
+    </div>
+    <div id="hideInstructionsButton">
+        Close Instructions
+    </div>
+
+</div>
+<canvas id="canvas" width="600px" height="600px"></canvas>
+</body>
+</html>
