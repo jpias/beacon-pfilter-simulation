@@ -12,6 +12,9 @@ html, body {
     padding: 0px;
     right: 262px;
 }
+#instructions a, a:visited{
+    color: white;
+}
 
 #instructions {
     visibility: hidden;
