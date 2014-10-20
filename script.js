@@ -75,7 +75,7 @@ var simulationSteps = {
                 particle.p *= gaussian.cdf(-1 * Math.abs(beaconParticleDistance - beacon.measuredDistance));
             });
         });
-        // normalize sum of oll probabilities to 1
+        // normalize sum of all probabilities to 1
         var pSum = 0;
         particles.forEach(function (particle) {
             pSum += particle.p;
